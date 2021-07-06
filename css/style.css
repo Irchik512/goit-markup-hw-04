@@ -420,6 +420,14 @@ justify-content: space-between;
 color: var(--main-fon);
 background: rgba(255, 255, 255, 0.1);
 }
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+   background-color: var(--color-acsent);
+   color: var(--main-fon);
+   fill: var(--main-fon);
+}
+
 /* ====================2PAGE============ */
 
 /* --PORTFOLIO-- */
