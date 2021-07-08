@@ -330,11 +330,15 @@ justify-content: space-between;
 .social-link:focus {
    background-color: var(--color-acsent);
    color: var(--main-fon);
-   fill: var(--main-fon);
 }
 .social-icon{
     fill: var(--icon-color);
     justify-content: center;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+    fill: var(--main-fon);
 }
 
 /* --CLIENT-- */
@@ -357,7 +361,6 @@ justify-content: space-between;
 .client-link:focus,
 .client-link:hover{
     color: var(--color-acsent);
-    fill: var(--color-acsent);
     border: 1px solid rgba(33, 150, 243, 1);
 }
 .client-icon-box {
@@ -372,6 +375,10 @@ justify-content: space-between;
     fill: var(--icon-color);
 }
 
+.client-link:focus .client-icon,
+.client-link:hover .client-icon{
+    fill: var(--color-acsent);
+}
 
 /* =================FOOTER=============== */
 
